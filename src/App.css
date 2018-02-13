@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "droid";
+  src: url(https://fonts.gstatic.com/s/droidserif/v8/0AKsP294HTD-nvJgucYTaIgp9Q8gbYrhqGlRav_IXfk.woff2); }
+@font-face {
+  font-family: "alternate";
+  src: url(//cdn.shopify.com/s/files/1/2294/8559/t/4/assets/AlternateGothicNo2-webfont.woff); }
+.App {
+  text-align: center; }
+
+.App-logo {
+  height: 80px; }
+
+.App-header {
+  border-image: repeating-linear-gradient(-45deg, #1c59a8, #1c59a8 15px, #cfe0f2 0, #cfe0f2 30px) 2;
+  border-bottom: 2px solid;
+  padding: 40px;
+  color: white;
+  margin-bottom: 40px; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+.products {
+  width: 1200px;
+  max-width: calc(100% - 80px);
+  margin: 0 auto;
+  padding: 0 40px; }
+  .products .filter-title {
+    line-height: 45px;
+    background-color: #cfe0f2;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: "alternate"; }
+  .products .page-title {
+    padding: 0 0 26px;
+    margin-top: 0;
+    border-bottom: solid 1px #ddd;
+    color: #1C59AC;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "alternate"; }
+  .products .product {
+    padding: 10px; }
+    .products .product .image-wrapper {
+      min-height: 300px;
+      display: flex;
+      align-items: center; }
+      .products .product .image-wrapper img {
+        width: 100%; }
+
+.total {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-top: 14px; }
+
+.fitler-wrapper h3 {
+  text-align: left;
+  border-bottom: solid 1px #ddd;
+  border-top: solid 1px #ddd;
+  line-height: 45px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 20px;
+  color: #1C59AC;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "alternate"; }
+.fitler-wrapper .filter-options {
+  max-height: 300px;
+  overflow: scroll;
+  text-align: left;
+  list-style: none;
+  padding: 20px 0;
+  padding-left: 0;
+  margin: 0 auto; }
+  .fitler-wrapper .filter-options li {
+    position: relative;
+    padding-left: 18px;
+    font-family: "droid"; }
+    .fitler-wrapper .filter-options li input {
+      position: absolute;
+      margin-top: 14px; }
+    .fitler-wrapper .filter-options li label {
+      display: inline-block;
+      line-height: 40px;
+      width: calc(100% - 30px);
+      padding-left: 30px;
+      font-size: 14px;
+      margin-left: 0;
+      cursor: pointer; }
+
+/*# sourceMappingURL=App.css.map */
